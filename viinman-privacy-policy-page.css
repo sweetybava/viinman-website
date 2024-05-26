@@ -1,0 +1,241 @@
+.viinman-logo-top-left-svg-11 {
+    position: relative;
+    width: 122px;
+    height: 58px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .privacy-policy1 {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    height: 47px;
+    max-width: 206px;
+  }
+  .header,
+  .header-logo-privacy-policy-tit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header-logo-privacy-policy-tit {
+    flex: 1;
+    justify-content: space-between;
+    max-width: 1280px;
+  }
+  .header {
+    align-self: stretch;
+    background-color: var(--color-azure);
+    overflow: hidden;
+    justify-content: center;
+    padding: 55px var(--padding-61xl);
+  }
+  .we-care-about {
+    margin: 0;
+  }
+  .what-data-do-we-collect-about {
+    margin: 0;
+    font-size: var(--font-size-xl);
+  }
+  .we-care-about-container {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: 1280px;
+  }
+  .body {
+    align-self: stretch;
+    background-color: var(--dominant);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px var(--padding-61xl);
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+  }
+  .viinman-logo-bottom-left-svg-21 {
+    position: relative;
+    width: 122px;
+    height: 58px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .privacy-policy2 {
+    text-decoration: none;
+    align-self: stretch;
+    position: relative;
+    color: inherit;
+  }
+  .privacy-policy2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    /* color:white; */
+  }
+
+  .privacy-policy2 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .privacy-policy2:hover , .privacy-policy2 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+  }
+  .by-viinman-overseas1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-roboto);
+    color: var(--dominant);
+    text-align: center;
+    display: inline-block;
+  }
+  .footer-links1,
+  .privacy-policy-link1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-links1 {
+    width: 204px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .privacy-policy-link1 {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-3xs);
+  }
+  .facebook-icon1,
+  .whatsapp-icon1 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .facebook-icon1 {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .footer-div1,
+  .social-icons1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .social-icons1 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .footer-div1 {
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+  }
+  .footer1,
+  .viinman-privacy-policy-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1 {
+    align-self: stretch;
+    background-color: var(--color-darkslategray-100);
+    flex-direction: row;
+    padding: var(--padding-13xl) var(--padding-61xl);
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--dominant);
+    font-family: var(--font-roboto);
+  }
+  .viinman-privacy-policy-page {
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-darkslategray-100);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1200px) {
+    .footer1 {
+      padding: var(--padding-11xl) var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .body,
+    .header {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+    .footer-links1 {
+      display: flex;
+    }
+    .footer1 {
+      padding: var(--padding-10xl) var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .viinman-logo-top-left-svg-11 {
+      max-width: 60%;
+      height: auto;
+    }
+    .privacy-policy1 {
+      font-size: var(--font-size-11xl);
+    }
+    .privacy-policy-link1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .footer-div1 {
+      flex-direction: column;
+      gap: var(--gap-21xl);
+    }
+    .footer1 {
+      padding: var(--padding-9xl) var(--padding-5xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .viinman-logo-top-left-svg-11 {
+      max-width: 30%;
+      height: auto;
+    }
+    .privacy-policy1 {
+      font-size: 22px;
+      text-align: left;
+      max-width: 155px;
+    }
+    .body,
+    .header {
+      box-sizing: border-box;
+    }
+    .header {
+      padding: 25px;
+    }
+    .body {
+      padding: var(--padding-11xl) var(--padding-xl);
+    }
+    .privacy-policy-link1 {
+      flex: unset;
+      align-self: stretch;
+    }
+    .footer-div1 {
+      flex-direction: column;
+      gap: var(--gap-21xl);
+    }
+  }
+  

@@ -1,0 +1,41 @@
+.home1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+}
+.contact-button {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) 0;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu-buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.menu-pop-up {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  width: 332px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 142px var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-large);
+}

@@ -1,0 +1,213 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.upload-your-cvresume {
+  align-self: stretch;
+  position: relative;
+}
+.name-field3 {
+  border: 1px solid var(--color-darkslategray-300);
+  font-family: var(--text-large);
+  font-size: var(--text-large-size);
+  background-color: var(--dominant);
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.name-field3:focus {
+  outline: 0;
+}
+.job-roleposition {
+  align-self: stretch;
+  position: relative;
+}
+.job-roleposition-field1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--dominant);
+  border: 1px solid var(--color-darkslategray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.job-roleposition-field {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.job-roleposition-field,
+.mobile-number-field3,
+.upload-your-cvresume-form-fie3 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.mobile-number-field3 {
+  border: 1px solid var(--color-darkslategray-300);
+  font-family: var(--text-large);
+  font-size: var(--text-large-size);
+  background-color: var(--dominant);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  outline: 0;
+}
+.upload-your-cvresume-form-fie3 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+}
+.upload-ic-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.upload-cvresume {
+  position: relative;
+  font-size: var(--text-large-size);
+  line-height: 24px;
+  font-family: var(--text-large);
+  color: var(--color-deepskyblue-100);
+  text-align: center;
+}
+.upload-cv-resumer-button {
+  cursor: pointer;
+  border: 2px solid var(--color-deepskyblue-100);
+  padding: var(--padding-sm) var(--padding-9xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.upload-your-cvresume-form-fie2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+}
+.submit1 {
+  position: relative;
+  letter-spacing: 0.46px;
+}
+.upload-cvresume-submit {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--dominant);
+  font-family: var(--font-roboto);
+}
+.upload-cvresume-submit:hover {
+  background-color: var(--color-darkslategray-200);
+  cursor: pointer;
+}
+.upload-your-cvresume-form-fie,
+.upload-your-cvresume-form-fie1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.upload-your-cvresume-form-fie1 {
+  align-self: stretch;
+  gap: 50px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.upload-your-cvresume-form-fie {
+  flex: 1;
+  gap: var(--gap-11xl);
+  z-index: 0;
+}
+.icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  right: 11px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.icon1:hover {
+  border-radius: var(--br-9xs);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.upload-your-cvresume-popup {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  width: 599px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-21xl) var(--padding-41xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  opacity: 1;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-large);
+}
+.upload-your-cvresume-popup.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+@media screen and (max-width: 960px) {
+  .job-roleposition {
+    font-size: var(--font-size-sm);
+  }
+}
+@media screen and (max-width: 420px) {
+  .upload-your-cvresume-popup {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 600px) {
+  .upload-your-cvresume-popup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

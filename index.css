@@ -1,0 +1,1260 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.viinman-logo-top-left-svg-1 {
+  position: relative;
+  width: 122px;
+  height: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  position: relative;
+  font-size: var(--text-large-size);
+  line-height: 20px;
+  font-family: var(--text-large);
+  color: var(--dark-gray);
+  text-align: center;
+}
+.home-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-base);
+  background-color: transparent;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.home-button:hover {
+  background-color: var(--color-deepskyblue-200);
+}
+.navigation-menu {
+  gap: var(--gap-xl);
+}
+.navigation-menu,
+.navigation-right,
+.top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.top-container {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.right-menu-ic-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.right-menu-ic-icon:hover {
+  cursor: pointer;
+}
+.top-header {
+  align-self: stretch;
+  background-color: var(--color-azure);
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.top-div-line {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.overseas-job-placement,
+.s-of-employees {
+  align-self: stretch;
+  position: relative;
+}
+.s-of-employees {
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.icon,
+.upload-your-cv {
+  position: relative;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.upload-cv2 {
+  position: relative;
+  font-size: var(--text-large-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--text-large);
+  color: var(--dominant);
+  text-align: center;
+}
+.upload-cv1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-9xl);
+  background-color: var(--color-darkslategray-100);
+  border-radius: var(--br-7xs);
+  width: 173px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.upload-cv1:hover {
+  background-color: #043e58;
+}
+.buttons,
+.subtitle,
+.title-subtitle-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subtitle,
+.title-subtitle-button {
+  flex-direction: column;
+}
+.subtitle {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--text-large-size);
+}
+.title-subtitle-button {
+  flex: 1;
+  gap: 36px;
+}
+.image-1-icon {
+  position: relative;
+  width: 677px;
+  height: 605px;
+  object-fit: cover;
+}
+.hero-img-title-buttons,
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero-img-title-buttons {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 1280px;
+}
+.hero-section {
+  align-self: stretch;
+  background-color: var(--color-azure);
+  padding: var(--padding-33xl) var(--padding-61xl);
+  justify-content: center;
+  font-size: 40px;
+}
+.top-line {
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  width: 91px;
+  height: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.industries-we-serve1 {
+  align-self: stretch;
+  position: relative;
+}
+.industries-we-serve-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.construction-img-icon {
+  position: relative;
+  width: 91px;
+  height: 92px;
+  object-fit: cover;
+}
+.construction1 {
+  position: relative;
+  font-weight: 600;
+}
+.image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.construction {
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  border: 3px solid var(--color-deepskyblue-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xl) var(--padding-41xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.power-plant-img-icon {
+  position: relative;
+  width: 94px;
+  height: 95px;
+  object-fit: cover;
+}
+.power-plant {
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  border: 3px solid var(--color-deepskyblue-300);
+  box-sizing: border-box;
+  width: 247px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xl) var(--padding-41xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.oil-and-gas-img,
+.petro-chemical-img-icon {
+  position: relative;
+  width: 93px;
+  height: 95px;
+  object-fit: cover;
+}
+.petro-chemical-img-icon {
+  width: 94.07px;
+  height: 92px;
+}
+.petro-chemical1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.image-text3 {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.petro-chemical {
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  border: 3px solid var(--color-deepskyblue-300);
+  box-sizing: border-box;
+  width: 247px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xl) var(--padding-21xl);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+.hotel-img-icon {
+  position: relative;
+  width: 99px;
+  height: 93px;
+  object-fit: cover;
+}
+.image-text4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.hotel {
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  border: 3px solid var(--color-deepskyblue-300);
+  box-sizing: border-box;
+  width: 247px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.hospital-img-icon {
+  position: relative;
+  width: 110px;
+  height: 76px;
+  object-fit: cover;
+}
+.image-text5 {
+  width: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.hospital,
+.industries-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hospital {
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  border: 3px solid var(--color-deepskyblue-300);
+  box-sizing: border-box;
+  width: 247px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-11xl);
+  text-align: center;
+}
+.industries-list {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 28px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.top-div-line1 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+}
+.industries-we-serve,
+.industries-we-serve-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.industries-we-serve-div {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-33xl);
+}
+.industries-we-serve {
+  align-self: stretch;
+  background-color: var(--color-azure);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-33xl) 0 var(--padding-3xs);
+  text-align: center;
+}
+.about-us-title-child {
+  position: relative;
+  background-color: var(--dominant);
+  width: 91px;
+  height: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viinman-overseas-manpower {
+  align-self: stretch;
+  position: relative;
+}
+.about-us-content,
+.about-us-div {
+  display: flex;
+  flex-direction: column;
+}
+.about-us-content {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  font-size: var(--text-large-size);
+}
+.about-us-div {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  max-width: 881px;
+}
+.about-us1,
+.i-am-a {
+  font-family: var(--text-large);
+}
+.about-us1 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-33xl) var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--dominant);
+}
+.i-am-a {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.employer-radio {
+  cursor: pointer;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--dominant);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.employer1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--text-large);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.employer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.employer,
+.i-am-a-radio,
+.jobseeker,
+.radio-text {
+  display: flex;
+  justify-content: flex-start;
+}
+.jobseeker {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.i-am-a-radio,
+.radio-text {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.radio-text {
+  flex-direction: row;
+  gap: 22px;
+}
+.i-am-a-radio {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.name,
+.name-field1 {
+  font-family: var(--text-large);
+  align-self: stretch;
+}
+.name {
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  text-align: left;
+}
+.name-field1 {
+  border: 1px solid var(--color-darkslategray-300);
+  font-size: var(--text-large-size);
+  background-color: var(--dominant);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.name-field1:focus {
+  outline: 0;
+}
+.name-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.email,
+.email-address-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.email {
+  border: 1px solid var(--color-darkslategray-300);
+  font-family: var(--text-large);
+  font-size: var(--text-large-size);
+  background-color: var(--dominant);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  outline: 0;
+}
+.email-address-field {
+  align-items: flex-start;
+  gap: var(--gap-lg);
+}
+.fileds {
+  flex-direction: column;
+  gap: var(--gap-lg);
+  min-width: 300px;
+}
+.contact-us-form-fields,
+.fileds,
+.message-field,
+.message-field1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.message-field1 {
+  border: 1px solid var(--color-darkslategray-300);
+  background-color: var(--dominant);
+  font-family: var(--text-large);
+  font-size: var(--text-large-size);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+}
+.contact-us-form-fields,
+.message-field {
+  flex-direction: column;
+}
+.message-field {
+  gap: var(--gap-7xs);
+  min-width: 300px;
+}
+.contact-us-form-fields {
+  gap: var(--gap-11xl);
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.46px;
+  font-family: var(--font-roboto);
+  color: var(--dominant);
+  text-align: center;
+}
+.contact-us-submit {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: center;
+}
+.contact-us-submit:hover {
+  background-color: var(--color-darkslategray-200);
+  cursor: pointer;
+}
+.contact-us-form {
+  width: 100%;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 682px;
+}
+.contact-us-form,
+.contact-us-form-div,
+.contact-us1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-form-div {
+  width: 100%;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 881px;
+}
+.contact-us1 {
+  align-self: stretch;
+  background-color: var(--color-azure);
+  overflow: hidden;
+  padding: var(--padding-3xs) 0 var(--padding-33xl);
+  justify-content: center;
+  gap: var(--gap-33xl);
+  text-align: center;
+}
+.india-flag-icon {
+  width: 37px;
+  height: 25px;
+  object-fit: cover;
+}
+.india,
+.india-flag-icon {
+  position: relative;
+}
+.india-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.no-9-41-4th {
+  margin: 0;
+}
+.no-9-41-4th-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-large-size);
+}
+.india-address,
+.sril-lanka-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.india-address {
+  flex: 1;
+  gap: var(--gap-2xl);
+}
+.sril-lanka-title {
+  gap: 8px;
+}
+.india-sril-lanka-address,
+.office-location {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.india-sril-lanka-address {
+  align-items: flex-start;
+  gap: var(--gap-61xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.office-location {
+  background-color: var(--color-azure);
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-3xs);
+  align-items: center;
+}
+.privacy-policy  {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.privacy-policy a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+.privacy-policy:hover , .privacy-policy a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color:white;
+}
+.by-viinman-overseas {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--dominant);
+  text-align: center;
+  display: inline-block;
+}
+.footer-links,
+.privacy-policy-link {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-links {
+  width: 204px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.privacy-policy-link {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.facebook-icon,
+.whatsapp-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.facebook-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footer-div,
+.social-icons {
+  display: flex;
+  flex-direction: row;
+}
+.social-icons {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.footer-div {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  padding: 30px 20px;
+}
+.footer,
+.viinman-website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  flex-direction: row;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  font-size: var(--font-size-sm);
+  color: var(--dominant);
+  font-family: var(--font-roboto);
+}
+.viinman-website {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .top-header {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .overseas-job-placement {
+    font-size: 34px;
+  }
+  .s-of-employees {
+    font-size: var(--font-size-9xl);
+  }
+  .image-1-icon {
+    max-width: 50%;
+    height: auto;
+  }
+  .hero-section {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navigation-menu {
+    display: none;
+  }
+  .right-menu-ic-icon {
+    display: flex;
+  }
+  .top-header {
+    padding-left: var(--padding-5xl);
+    padding-right: 18px;
+    box-sizing: border-box;
+  }
+  .overseas-job-placement,
+  .s-of-employees {
+    text-align: center;
+  }
+  .buttons,
+  .subtitle {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .subtitle {
+    justify-content: center;
+  }
+  .title-subtitle-button {
+    align-items: center;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .image-1-icon {
+    max-width: 75%;
+  }
+  .hero-img-title-buttons {
+    flex-direction: column;
+    gap: var(--gap-41xl);
+  }
+  .name {
+    font-size: var(--font-size-sm);
+  }
+  .footer-links {
+    display: flex;
+  }
+  .footer {
+    padding: 29px var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigation-right {
+    display: flex;
+  }
+  .hero-section {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .contact-us-form-fields {
+    flex-direction: column;
+  }
+  .india-sril-lanka-address {
+    gap: var(--gap-61xl);
+  }
+  .footer-div {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer {
+    padding: var(--padding-9xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-us1,
+  .contact-us-form {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .contact-us-form {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .india-sril-lanka-address {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 600px) {
+  .overseas-job-placement {
+    font-size: 26px;
+  }
+  .s-of-employees {
+    font-size: var(--font-size-xl);
+  }
+  .upload-your-cv {
+    font-size: var(--font-size-xs);
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .title-subtitle-button {
+    gap: 26px;
+  }
+  .image-1-icon {
+    max-width: 92%;
+    height: auto;
+  }
+  .hero-section {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .viinman-overseas-manpower {
+    font-size: var(--font-size-sm);
+  }
+  .about-us-div {
+    gap: var(--gap-11xl);
+  }
+  .about-us1 {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .name-field {
+    flex: unset;
+    align-self: stretch;
+  }
+  .email-address-field {
+    flex-direction: column;
+  }
+  .contact-us-form-div {
+    gap: var(--gap-11xl);
+  }
+  .india-address {
+    flex: unset;
+    align-self: stretch;
+  }
+  .india-sril-lanka-address {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+  }
+}
+.success-check-img-icon {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.thank-you,
+.your-details-has {
+  position: relative;
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thank-you {
+  font-weight: 500;
+  width: 98px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.your-details-has {
+  font-size: var(--font-size-xs);
+  width: 196px;
+}
+.thank-you-message1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.thank-you-message {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form-submission-success-messag1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) 37px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.form-submission-success-messag {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-large);
+}
+.home1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+}
+.contact-button {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) 0;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu-buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.menu-pop-up {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  width: 332px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 142px var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-large);
+}
+.upload-your-cvresume {
+  align-self: stretch;
+  position: relative;
+}
+.name-field3 {
+  border: 1px solid var(--color-darkslategray-300);
+  font-family: var(--text-large);
+  font-size: var(--text-large-size);
+  background-color: var(--dominant);
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.name-field3:focus {
+  outline: 0;
+}
+.job-roleposition {
+  align-self: stretch;
+  position: relative;
+}
+.job-roleposition-field1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--dominant);
+  border: 1px solid var(--color-darkslategray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.job-roleposition-field {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.job-roleposition-field,
+.mobile-number-field3,
+.upload-your-cvresume-form-fie3 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.mobile-number-field3 {
+  border: 1px solid var(--color-darkslategray-300);
+  font-family: var(--text-large);
+  font-size: var(--text-large-size);
+  background-color: var(--dominant);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xs);
+  align-items: center;
+  outline: 0;
+}
+.upload-your-cvresume-form-fie3 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+}
+.upload-ic-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.upload-cvresume {
+  position: relative;
+  font-size: var(--text-large-size);
+  line-height: 24px;
+  font-family: var(--text-large);
+  color: var(--color-deepskyblue-100);
+  text-align: center;
+}
+.upload-cv-resumer-button {
+  cursor: pointer;
+  border: 2px solid var(--color-deepskyblue-100);
+  padding: var(--padding-sm) var(--padding-9xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.upload-your-cvresume-form-fie2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+}
+.submit1 {
+  position: relative;
+  letter-spacing: 0.46px;
+}
+.upload-cvresume-submit {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--dominant);
+  font-family: var(--font-roboto);
+}
+.upload-cvresume-submit:hover {
+  background-color: var(--color-darkslategray-200);
+  cursor: pointer;
+}
+.upload-your-cvresume-form-fie,
+.upload-your-cvresume-form-fie1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.upload-your-cvresume-form-fie1 {
+  align-self: stretch;
+  gap: 50px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.upload-your-cvresume-form-fie {
+  flex: 1;
+  gap: var(--gap-11xl);
+  z-index: 0;
+}
+.icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  right: 11px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.icon1:hover {
+  border-radius: var(--br-9xs);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.upload-your-cvresume-popup {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--dominant);
+  width: 599px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-21xl) var(--padding-41xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  opacity: 1;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-large);
+}
+.upload-your-cvresume-popup.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+@media screen and (max-width: 960px) {
+  .job-roleposition {
+    font-size: var(--font-size-sm);
+  }
+}
+@media screen and (max-width: 420px) {
+  .upload-your-cvresume-popup {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 600px) {
+  .upload-your-cvresume-popup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
